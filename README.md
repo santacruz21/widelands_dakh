@@ -2,4 +2,3 @@
 # 1st_project
 # Denys Dakh
 # Mentor Maksim
-# sdfsd
