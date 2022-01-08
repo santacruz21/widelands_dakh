@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 600;
+    src:url(../fons/SFProDisplay-Semibold.ttf);
+}
+
+a{
+    font-family: "sf pro display";
+    text-decoration: 0;
+    color: #072234;
+}
+
+p{
+    font-family: "sf pro display";
+    color: black;
+}
+a:hover{
+    color:#409DE2;
+}
+a:active{
+    color:#216DA6;
+}
