@@ -176,3 +176,41 @@ h3 {
     font-weight: 400;
     text-decoration: none;
 }
+.headertp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.p1tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.h2tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.litp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.litpsb {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 600;
+}
+.p2tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
