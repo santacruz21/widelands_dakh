@@ -83,7 +83,58 @@ h3 {
     font-size: 16px;
     font-weight: 400;
 }
-
-
-
+.p4 {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.p5 {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p6 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.read {
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 16px;
+    font-weight: 500; 
+}.btn2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 13px;
+    font-weight: 400; 
+}
+.p7 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+}
+.p8 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mail {
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 14px;
+    font-weight: 400; 
+}
 
