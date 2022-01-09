@@ -1,23 +1,89 @@
 @font-face {
     font-family: "SF Pro Display";
-    font-style: normal;
-    font-weight: 600;
+    font-style: normal; 
+    font-weight: 500;
     src:url(../fons/SFProDisplay-Semibold.ttf);
 }
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 400;
+    src:url(../fons/SFProDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 700;
+    src:url(../fons/SFProDisplay-Bold.ttf);
+}
+
 
 a{
-    font-family: "sf pro display";
+    font-family: "SF Pro Display";
     text-decoration: 0;
     color: #072234;
+    font-size: 16px;
+    font-weight: 500; 
 }
 
-p{
-    font-family: "sf pro display";
-    color: black;
-}
 a:hover{
     color:#409DE2;
 }
 a:active{
     color:#216DA6;
 }
+
+.title {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    color: #8C9EAA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wideland {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+    }
+h1 {
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 120px;
+    font-weight: 700;
+}
+h2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 64px;
+    font-weight: 700;
+}
+.p1 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 64px;
+    font-weight: 700;
+}
+.p3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
