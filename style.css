@@ -18,7 +18,7 @@
 }
 
 
-a{
+.header{
     font-family: "SF Pro Display";
     text-decoration: 0;
     color: #072234;
@@ -134,7 +134,45 @@ h3 {
 .mail {
     font-family: "SF Pro Display";
     color: #409DE2;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 400; 
 }
 
+.h1new {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+}
+.h2news {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p1news {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btnnews {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 16px;
+    font-weight: 700;
+}
+.telhaed { 
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.telfooter { 
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
