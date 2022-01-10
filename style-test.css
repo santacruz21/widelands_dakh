@@ -269,40 +269,26 @@ ul {
     font-size: 144px;
     font-weight: 700;
 }
-.header-point {
-    list-style: none;
-}
-
-.header{
+.container{
     width: 100%;
-}
-.header-wrapper{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-   
-}
-.container {
-    width: 100%;
-    min-height: 105px;
-    max-width: 1180px;
-    margin: 0;  
-    align-items: center;
+    max-width: 1720px;
+    margin: auto;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
+    background-color: tomato;
 }
-
 .header-list{
-    list-style: none;
-    margin: 0px;
-    padding: 0;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 .header-link{
-    margin: 71px;
+    margin-right: 70px;
 }
 .header-linksvg{
-    margin: 26px;
+    margin-right: 33px;
 }
-.logo{
-    padding-left: 100px;
+.header-linksvg:last-child{
+     margin: 0;
 }
