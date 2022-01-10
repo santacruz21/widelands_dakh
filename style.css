@@ -2,7 +2,7 @@
     font-family: "SF Pro Display";
     font-style: normal; 
     font-weight: 500;
-    src:url(../fons/SFProDisplay-Semibold.ttf);
+    src:url(../fons/SFProDisplay-Medium.ttf);
 }
 @font-face {
     font-family: "SF Pro Display";
@@ -15,6 +15,12 @@
     font-style: normal; 
     font-weight: 700;
     src:url(../fons/SFProDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 600;
+    src:url(../widelands_dakh/fons/SFProDisplay-Semibold.ttf);
 }
 
 
@@ -213,4 +219,89 @@ h3 {
     color: #072234;
     font-size: 16px;
     font-weight: 400;
+}
+.h1asrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.p1asrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+caption {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.th {
+    font-family: "SF Pro Display";
+    color: #8C9EAA;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tableasrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tabasrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h1-404{
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 144px;
+    font-weight: 700;
+}
+.header-point {
+    list-style: none;
+}
+
+.header{
+    width: 100%;
+}
+.header-wrapper{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    width: 100%;
+    min-height: 105px;
+    max-width: 1180px;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list{
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+}
+.header-link{
+    margin: 71px;
+}
+.header-linksvg{
+    margin: 26px;
+}
+.logo{
+    padding-left: 100px;
 }
