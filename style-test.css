@@ -278,44 +278,68 @@ ul {
     font-family: "SF Pro Display";
     color: #409DE2;
     font-size: 144px;
-    font-weight: 700;
+    font-weight: 700px;
 }
-.container{
-    width: 100%;
+
+/* ----------------------head----------------------------- */
+
+.header-wrapper{
     max-width: 1720px;
-    margin: 0 auto;
-    min-height: 107px;
-    justify-content: space-between; 
-    display: flex;
-    align-items: center;
-    background-color: burlywood;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 .header-list{
     display: flex;
     padding: 0;
     margin: 0;
+    margin-left: 200px;
 }
 .header-link{
     margin-right: 70px;
 }
-.header-link:first-child{
-    padding-left: 0px;
-}
 .header-linksvg{
     margin-right: 33px;
 }
-.header-linksvg:last-child{
-     margin: 0px;
-     padding-right: 2px;
+.container{
+    width: 100%;
+    max-width: 1720px;
+    min-height: 105px;
+    margin: 0 auto;
+    justify-content: space-between; 
+    display: flex;
+    align-items: center;
 }
+.header-linksvg:last-child{
+    margin: 0px;
+    padding-right: 2px;
+}
+.logo{
+    margin-right: auto;
+}
+/* ----------------------body------------- */
 .container-h1{
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 191px;
-    /* width: 1720px; */
-    min-height: 1020px  ;
+    width: 1720px;
+    min-height: 1020px;
 }
-.header-wrapper{
-    max-width: 1720px;
-    margin: 0px auto;
+.title{
+    width: 517px;
+    height: 44px;
+    margin-top: 85px;
 }
+.main_title{
+    width: 643px;
+    height: 216px;
+    margin-top: 30px;
+}
+.main_img{
+    width: 1720px;
+    height: 700px;
+    margin-top: 30px;
+}
+.main-tel{
+   
+}
+
