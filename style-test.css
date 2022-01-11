@@ -1,4 +1,7 @@
+
+
 @font-face {
+
     font-family: "SF Pro Display";
     font-style: normal; 
     font-weight: 500;
@@ -21,6 +24,14 @@
     font-style: normal; 
     font-weight: 600;
     src:url(../widelands_dakh/fons/SFProDisplay-Semibold.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 
@@ -272,11 +283,12 @@ ul {
 .container{
     width: 100%;
     max-width: 1720px;
-    margin: auto;
-    padding: 100px;
+    margin: 0 auto;
+    min-height: 107px;
+    justify-content: space-between; 
     display: flex;
-    justify-content: space-between;
-    background-color: tomato;
+    align-items: center;
+    background-color: burlywood;
 }
 .header-list{
     display: flex;
@@ -286,9 +298,24 @@ ul {
 .header-link{
     margin-right: 70px;
 }
+.header-link:first-child{
+    padding-left: 0px;
+}
 .header-linksvg{
     margin-right: 33px;
 }
 .header-linksvg:last-child{
-     margin: 0;
+     margin: 0px;
+     padding-right: 2px;
+}
+.container-h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 191px;
+    /* width: 1720px; */
+    min-height: 1020px  ;
+}
+.header-wrapper{
+    max-width: 1720px;
+    margin: 0px auto;
 }
