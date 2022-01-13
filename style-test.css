@@ -350,11 +350,15 @@ ul {
 .main_title-h2{
     width: 270px;
     height: 58px;
+    margin-right: 100px;
+    background-color: indigo;
 }
 .h2-p1-2{
    width: 1010px;
    height: 154px;
    margin-left: 440px;
+   background-color: lawngreen;
+   margin-top: -100px;
 }
 /* ----------------------404---------------------- */
 .container_404{
@@ -389,5 +393,5 @@ ul {
     align-items: center;
     height: 58px;
     width: 210px;
-    margin-left: 0;
+    margin-right: 500px;
 }
