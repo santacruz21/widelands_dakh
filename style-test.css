@@ -316,7 +316,7 @@ ul {
 .logo{
     margin-right: auto;
 }
-/* ----------------------body------------- */
+/* ----------------------body---------h1---- */
 .container-h1{
     margin-left: 100px;
     margin-right: 100px;
@@ -339,7 +339,55 @@ ul {
     height: 700px;
     margin-top: 30px;
 }
-.main-tel{
-   
+/* ----------------------body---------h2---- */
+.container-h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 191px;
+    width: 1720px;
+    min-height: 971px;
 }
-
+.main_title-h2{
+    width: 270px;
+    height: 58px;
+}
+.h2-p1-2{
+   width: 1010px;
+   height: 154px;
+   margin-left: 440px;
+}
+/* ----------------------404---------------------- */
+.container_404{
+    height: 906px;
+    max-width: 1720px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+    background-color: green;
+}
+.h1-404{
+   width: 281px;
+   height: 130px;
+}
+.h2tp{
+        margin-left: 710px;
+        width: 283px;
+        height: 34px;
+        background-color: hotpink;
+}
+.litp{
+    width: 210px;
+    height: 22px;
+    margin-left: 710px;
+    margin-top: 10px;
+    background-color: indigo;
+}
+.batton_back{
+    background-color: #409DE2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 210px;
+    margin-left: 0;
+}
