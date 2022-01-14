@@ -385,8 +385,7 @@ header .container{
 .h2tp{
     width: 100%;
 }
-.litp{
-}
+
 .batton_back{
     display: flex;
     justify-content: center;
@@ -402,7 +401,6 @@ header .container{
     font-size: 16px;
     width: 517px;
     max-width: 100%;
-
 }
 
 .banner__title{
@@ -456,4 +454,26 @@ color: #8C9EAA;
     margin: 0;
     width: 643px;
     
+}
+.first-h2{
+    width: 1010px;
+    align-items: flex-end;
+}
+.h2_img img{
+    padding-left: 130px;
+}
+.h2_img img:first-child{
+    padding: 0;
+}
+.h2_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+     padding-top: 191px;
+     align-items: flex-end;
+     height: 1000px;
+}
+.h2_title{
+    margin: 0;
+    align-items: flex-start;
 }
