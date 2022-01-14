@@ -73,6 +73,7 @@ h1 {
     color: #409DE2;
     font-size: 120px;
     font-weight: 700;
+    line-height: 90%;
 }
 h2 {
     font-family: "SF Pro Display";
@@ -313,13 +314,13 @@ ul {
     min-height: 105px;
     padding: 0 15px;
     margin: 0 auto;
-    justify-content: space-between; 
     display: flex;
     flex-wrap: wrap;
 }
 
 header .container{
     align-items: center;
+    justify-content: space-between;
 }
 .header-linksvg:last-child{
     margin: 0px;
@@ -416,4 +417,43 @@ header .container{
 }
 .error__img{
     padding-bottom: 211px;
+}
+.header_list{
+    display: flex;  
+}
+.Header_menu{
+    display: flex;
+    
+}
+.Header_menu li{
+    padding-left: 70px;
+}
+
+.header_social{
+    display: flex;
+    padding-left: 200px;
+
+}
+.header_social li{
+    padding-left: 33px;
+}
+.header_social li:first-child {
+    padding-left: 0;
+}
+.first-before p{
+width: 517px;
+font-size: 16px;
+font-weight: 400;
+color: #8C9EAA;
+}
+.first-text{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+.first-h1{
+    margin: 0;
+    width: 643px;
+    
 }
