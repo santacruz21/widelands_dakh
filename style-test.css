@@ -458,9 +458,13 @@ color: #8C9EAA;
 .first-h2{
     width: 1010px;
     align-items: flex-end;
+    font-size: 16px;
+    color: #072234;
+    font-weight: 400;
 }
 .h2_img img{
     padding-left: 130px;
+    margin-top: -100px;
 }
 .h2_img img:first-child{
     padding: 0;
@@ -470,10 +474,16 @@ color: #8C9EAA;
     display: flex;
     justify-content: space-between;
      padding-top: 191px;
-     align-items: flex-end;
-     height: 1000px;
 }
-.h2_title{
+.h2_container h2{
     margin: 0;
+    display: flex;
     align-items: flex-start;
+}
+.h2_p{
+    font-size: 24px;
+    color: #072234;
+    font-size: 400;
+    text-transform: uppercase;
+    padding-top: 61px;
 }
