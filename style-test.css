@@ -28,10 +28,15 @@
 
 body {
     margin: 0;
+    font-family: "SF Pro Display";
 }
 
 * {
     box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -212,6 +217,7 @@ h3 {
     color: #072234;
     font-size: 24px;
     font-weight: 700;
+    padding-bottom: 10px;
 }
 .litp {
     font-family: "SF Pro Display";
@@ -279,6 +285,7 @@ ul {
     color: #409DE2;
     font-size: 144px;
     font-weight: 700px;
+    line-height: 130px;
 }
 
 /* ----------------------head----------------------------- */
@@ -304,9 +311,14 @@ ul {
     width: 100%;
     max-width: 1720px;
     min-height: 105px;
+    padding: 0 15px;
     margin: 0 auto;
     justify-content: space-between; 
     display: flex;
+    flex-wrap: wrap;
+}
+
+header .container{
     align-items: center;
 }
 .header-linksvg:last-child{
@@ -333,7 +345,7 @@ ul {
     width: 643px;
     height: 216px;
     margin-top: 30px;
-}
+}   
 .main_img{
     width: 1720px;
     height: 700px;
@@ -349,49 +361,59 @@ ul {
 }
 .main_title-h2{
     width: 270px;
-    height: 58px;
-    margin-right: 100px;
-    background-color: indigo;
+    height: auto;
+    padding-right: 100px;
 }
 .h2-p1-2{
    width: 1010px;
    height: 154px;
-   margin-left: 440px;
+   padding-left: 440px;
    background-color: lawngreen;
-   margin-top: -100px;
 }
 /* ----------------------404---------------------- */
 .container_404{
-    height: 906px;
     max-width: 1720px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 200px;
-    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
 }
 .h1-404{
-   width: 281px;
-   height: 130px;
+   width: auto;
+   height: auto;
 }
 .h2tp{
-        margin-left: 710px;
-        width: 283px;
-        height: 34px;
-        background-color: hotpink;
+    width: 100%;
 }
 .litp{
-    width: 210px;
-    height: 22px;
-    margin-left: 710px;
-    margin-top: 10px;
-    background-color: indigo;
 }
 .batton_back{
-    background-color: #409DE2;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 58px;
     width: 210px;
-    margin-right: 500px;
+    background-color: #409DE2;
+}
+
+/*test block*/
+.banner__before{
+    color: #8C9EAA;
+    font-size: 16px;
+    width: 517px;
+    max-width: 100%;
+
+}
+
+.banner__title{
+    width: 100%;
+}
+
+.error__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.error__img{
+    padding-bottom: 211px;
 }
