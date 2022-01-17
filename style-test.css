@@ -68,13 +68,8 @@ a:active{
     font-size: 120px;
     font-weight: 700;
     }
-h1 {
-    font-family: "SF Pro Display";
-    color: #409DE2;
-    font-size: 120px;
-    font-weight: 700;
-    line-height: 90%;
-}
+
+
 h2 {
     font-family: "SF Pro Display";
     color: #072234;
@@ -97,8 +92,9 @@ h2 {
 h3 {
     font-family: "SF Pro Display";
     color: #072234;
-    font-size: 64px;
+    font-size: 24px;
     font-weight: 700;
+    margin: 0;
 }
 .p3 {
     font-family: "SF Pro Display";
@@ -453,6 +449,11 @@ color: #8C9EAA;
 .first-h1{
     margin: 0;
     width: 643px;
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 90%;
 }
 .first-h2{
     width: 1010px;
@@ -464,6 +465,7 @@ color: #8C9EAA;
 .h2_img img{
     padding-left: 130px;
     margin-top: -100px;
+    margin-bottom: 200px;
 }
 .h2_img img:first-child{
     padding: 0;
@@ -472,7 +474,7 @@ color: #8C9EAA;
     width: 100%;
     display: flex;
     justify-content: space-between;
-     padding-top: 191px;
+    padding-top: 191px;
 }
 .h2_container h2{
     margin: 0;
@@ -482,20 +484,20 @@ color: #8C9EAA;
 .h2_p{
     font-size: 24px;
     color: #072234;
-    font-size: 400;
+    font-weight: 400;
     text-transform: uppercase;
     padding-top: 61px;
 }
-
-.assortment_h2 p{
-width: 690px;
-margin: 0;
-}
+/*-------assortment---------p1-*/
 .assortment_h2{
     width: 100%;
     display: flex;
     align-items: flex-start;
-    margin-top: 400px;   
+    margin-top: 200px;   
+    
+}
+.asort_bg{
+  background-color: #F1F3F4; /*-ширина должна быть 1920px-*/
 }
 .asrt_titl{
     margin: 0;
@@ -505,15 +507,137 @@ margin: 0;
 .button_asort{
     display: flex;
     justify-content: right;
-    margin-right: 100px;
+    margin-left: 176px;
     align-items: flex-start;
 }
 .btn_2{
-    padding-right: 16px;
-    padding-left: 176px;
+   padding-right: 16px;
 }
-.asrt_titl{
-    display: flex;
-    padding-right: 367px;
+
+.asort_h2{
     margin: 0;
+    font-size: 64px;
+    color: #072234;
+    line-height: 58px;
+    font-weight: 700;
+    padding-right: 367px;
+}
+.assortment_h2 p{
+    width: 690px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.asort_img{
+    margin-top: 65px;
+    margin-left: 600px;
+}
+
+.asort_img img:first-child{
+    margin-right: 32px;
+}
+/*--------news--------p1-*/
+.news_main{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 200px;
+    
+}
+.news_topic{
+    width: 690px;
+    margin-left: 545px;
+}
+.news_main h2{
+    margin: 0;
+}
+.news_topic p{
+    padding-bottom: 61px;
+}
+.readmore{
+    margin-left: 210px; /*-должно быть 245-*/   
+    margin-top: 40px;
+    font-size: 16px;
+}
+.readmore a{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 146px;
+}
+/*---------footer-----p1-*/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 139px;
+}
+.footer ul{
+    padding-right: 122px;
+}
+.footer p{
+    width: 282px;
+    font-size: 24px;
+}
+.footer h2{
+    margin: 0;
+}
+.end{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.end p{
+    margin: 0;
+    display: flex;
+    margin-right: 600px;
+}
+                  /*-end first page----*/
+
+/*------News-----p2-*/
+.news_h1{
+    margin-top: 159px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news_h1 h1{
+    color:  #072234;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 90%;
+    margin: 0;
+    display: flex;
+    margin-bottom: 36px;
+}
+.news_section{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    margin-bottom: 81px;
+}
+.news_section_1{
+    width: 690px;
+    height: 190px;
+    flex-wrap: wrap;
+    margin-left: 72px;
+    margin-top: 64px;
+    margin-right: 150px;
+}
+.news_section_1 h2{
+    margin: 0;
+    margin-bottom: 32px;
+}
+.news_section_1 p{
+    margin: 0;
+    margin-bottom: 40px;
+}
+.but_news{
+    height: 58px;
+    width: 210px;
+    background-color: #409DE2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
 }
