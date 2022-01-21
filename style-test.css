@@ -439,12 +439,16 @@ width: 517px;
 font-size: 16px;
 font-weight: 400;
 color: #8C9EAA;
+margin-top: 80px;
 }
 .first-text{
    width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
+   margin-right: 347px;
+   margin-bottom: 30px;
+   margin-top: 30px;
 }
 .first-h1{
     margin: 0;
@@ -493,16 +497,15 @@ color: #8C9EAA;
     width: 100%;
     display: flex;
     align-items: flex-start;
-    margin-top: 200px;   
-    
+    margin-top: 200px;
 }
-.asort_bg{
-  background-color: #F1F3F4; /*-ширина должна быть 1920px-*/
-}
+/*-.asort_bg{
+  .background-color: #F1F3F4; /*-ширина должна быть 1920px-*/
+
+
 .asrt_titl{
     margin: 0;
     line-height: 57px;
-
 }
 .button_asort{
     display: flex;
@@ -641,3 +644,243 @@ color: #8C9EAA;
     justify-content: space-around;
     margin-top: 100px;
 }
+/*---------text-page---------*/
+.text_main {
+    margin: 0;
+    display: flex;
+    margin-top: 158px;
+   
+}
+.text_main_h1{
+    width: 665px;
+    margin: 0;
+    display: flex;
+}
+.text_main_p{
+    width: 700px;
+    margin: 0;
+    margin-left: 44px;
+}   
+.text_main_img{
+    margin-top: 6px; /*-почему в тексте выше уже стоит маргин 24?-*/
+}
+.text_h2_1{
+    width: 700px;
+    margin: 0;
+    margin-top: 52px;
+    margin-left: 710px;
+    margin-bottom: 56px;
+}
+.text_ul_1{
+    margin-top: 72px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+}
+.table_1{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 308px;
+}
+.table_1 th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+}
+.table_1 td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+    padding-left: 70px;
+  }
+  .text_ul_1 p{
+    width: 700px;
+    margin-top: 24px;
+  }
+  .text_ul_1{
+    margin-top: 72px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+    margin-bottom: 44px;
+}
+/*-2 tab-*/
+.table_2{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 308px;
+}
+.table_2 th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+}
+.table_2 td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+    padding-left: 425px;
+  }
+  .text_ul_2 p{
+    width: 700px;
+    margin-top: 24px;
+  }
+  .h2tp{
+      width: 700px;
+  }
+  .text_ul_2{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+  }
+  /*-------asort-page-*/
+  .assort_h1 h1{
+      font-size: 120px;
+      font-weight: 700;
+      line-height: 108px;
+      text-transform: uppercase;
+      color: #072234;
+      margin: 0;
+      margin-top: 180px;
+  }
+  .assort_img{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+  }
+.assort_img_1{ /*-как опустить первую фоографию в этом контйнере без маргена-*/
+    margin-top: 219px;
+}
+.assort_p{
+    width: 700px;
+    margin-top: 72px;
+    margin-left: 710px;
+}
+.table_asort{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 566px;
+}
+.table_asort th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+  
+}
+.one{
+    padding-left: 59px;
+    color: #8C9EAA;
+    font-weight: 600;
+    font-size: 16px;
+  }
+.one1{
+    color: #8C9EAA;
+    font-weight: 600;
+    font-size: 16px;
+  }
+.table_asort td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+   /*- padding-left: 59px; убрал так как общие габариты становяться больше 700-*/
+  }
+  .asort_ul_1{ /*- как задать растояниме между колонами-*/
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+  }
+  .assort_main{
+      margin: 0;
+      display: flex;
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 710px;
+      margin-top: 48px;
+  }
+  .asort_ul{
+    list-style: none;
+    column-count: 2;
+    margin-left: 710px;
+    width: 700px;
+  }
+  .asort_ul li{
+    list-style-type: disc;
+    padding: 12px;
+  }
+  /*-оформление-*/
+
+  .Header_menu.current_list::after{
+      background-color: #409DE2;
+      position: absolute;
+      content: '';
+      width: 81px;
+      height: 3px;
+      left: 1221px; /*-почему для выравнивания мне понадобились такие большие параметры ? -*/
+      top: 104px;
+  }
+  .Header_menu.current_list::before{
+      background-color: #E0E0E0;
+      position: absolute;
+      content: '';
+      width: 1690px; /*-потому чо у меня в онтейнере -15 от каждого края-*/
+      height: 1px;
+      left: 175px;
+      top: 105px;
+  }
+  .first-h2.line::before{
+        background-color: #8C9EAA;
+        position: absolute;
+        content: "";
+        width: 1010px;
+        height: 1px;
+        left: 840px;
+        top: 1586px;
+  }
+  .back_word::before{
+    content: "";
+    width: 1484px;
+    height: 344px;
+    background-image: url(.//svg/windelend.svg);
+    background-repeat:no-repeat;
+    top: 3395px;
+    position: absolute;
+    z-index: -1;
+  }
+  /*--------- текст над каринкой -----
+  .assort_info_all{
+      width: 277px;
+      margin: 0 auto;
+      display: flex;
+      background-color: blueviolet;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .assort_info_p{
+      margin: 0;
+      
+  }
+  .assort_main {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    color: white;
+    margin-bottom: 18px;
+  }
+  .assort_main_p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 59px;
+  }
+ ----тек над картинкой -*/ 
+
+  
