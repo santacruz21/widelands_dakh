@@ -40,6 +40,7 @@ img{
 }
 
 
+
 .header{
     font-family: "SF Pro Display";
     text-decoration: 0;
@@ -446,18 +447,20 @@ margin-top: 80px;
    display: flex;
    justify-content: space-between;
    align-items: flex-end;
-   margin-right: 347px;
+   padding-right: 347px;
    margin-bottom: 30px;
    margin-top: 30px;
 }
 .first-h1{
     margin: 0;
-    width: 643px;
     font-family: "SF Pro Display";
     color: #409DE2;
     font-size: 120px;
     font-weight: 700;
     line-height: 90%;
+}
+.h1_1{
+    color: #072234;
 }
 .first-h2{
     width: 1010px;
@@ -499,8 +502,6 @@ margin-top: 80px;
     align-items: flex-start;
     margin-top: 200px;
 }
-/*-.asort_bg{
-  .background-color: #F1F3F4; /*-ширина должна быть 1920px-*/
 
 
 .asrt_titl{
@@ -513,8 +514,30 @@ margin-top: 80px;
     margin-left: 176px;
     align-items: flex-start;
 }
-.btn_2{
-   padding-right: 16px;
+ 
+
+.btn_left{
+ width: 64px;
+ height: 64px;
+ border-radius: 64px;
+ background-image: url(/svg/elips_left.svg);
+ display: flex;
+ border: none;
+ cursor: pointer;
+}
+.btn_left:hover{
+ width: 64px;
+ height: 64px;
+ border-radius: 64px;
+ background-image: url(/svg/elips_left_blue.svg);
+ display: flex;
+ border: none;
+ cursor: pointer;
+}
+
+.btn_right{
+    cursor: pointer;
+    border: none;
 }
 
 .asort_h2{
@@ -539,33 +562,109 @@ margin-top: 80px;
 .asort_img img:first-child{
     margin-right: 32px;
 }
-/*--------news--------p1-*/
-.news_main{
-    width: 100%;
+
+
+
+/*--------------------слайдер---------*/
+.assortiment{
+    padding: 100px 0;
+    background: #F1F3F4;
+}
+
+.assortiment__slider{
+    width: 60%;
+    margin-left: auto;
     display: flex;
-    align-items: flex-start;
-    margin-top: 200px;
-    
+    margin-top: 55px;
 }
-.news_topic{
-    width: 690px;
-    margin-left: 545px;
+
+.assortiment__item{
+    height: 602px;
+    width: 50%;
+    position: relative;
+    margin-bottom: 154px;
 }
-.news_main h2{
+
+.assortiment__bg{
+    background: url(/svg/shutterstock_504254812\ 1.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+.assortiment__bg1{
+    background: url(/svg/as.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+
+.assortiment__text{
+    background: rgba(37, 35, 65, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.assortiment__item:hover .assortiment__text {
+    opacity: 1;
+}
+
+/*--------news--------p1-*/
+.news_title{
+	width: 41%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
     margin: 0;
 }
-.news_topic p{
-    padding-bottom: 61px;
+.news {
+    margin-top: 200px;
 }
-.readmore{
-    margin-left: 210px; /*-должно быть 245-*/   
-    margin-top: 40px;
-    font-size: 16px;
+.news_title h2{
+    margin: 0;
 }
-.readmore a{
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 146px;
+.news_all{
+	width: 59%px;
+}
+.nesw_top a{
+    padding-left: 245px;
+}
+.nesw_top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_text{
+	border-top: 1px solid #8C9EAA;
+	padding: 30px 0;
+}
+
+.news_text:last-child{
+	border-bottom: 1px solid #8C9EAA;
+}
+
+.news_btn{
+	border: 1px solid #409DE2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 238px;
+	height: 238px;
+	border-radius: 238px;
 }
 /*---------footer-----p1-*/
 .footer{
@@ -599,51 +698,8 @@ margin-top: 80px;
                   /*-end first page----*/
 
 /*------News-----p2-*/
-.news_h1{
-    margin-top: 159px;
-    width: 100%;
-    margin-bottom: 30px;
-}
-.news_h1 h1{
-    color:  #072234;
-    font-size: 120px;
-    font-weight: 700;
-    line-height: 90%;
-    margin: 0;
-    display: flex;
-    margin-bottom: 36px;
-}
-.news_section{
-    margin: 0;
-    width: 100%;
-    display: flex;
-    margin-bottom: 81px;
-}
-.news_section_1{
-    width: 690px;
-    height: 190px;
-    flex-wrap: wrap;
-    margin-left: 72px;
-    margin-top: 64px;
-    margin-right: 150px;
-}
-.news_section_1 h2{
-    margin: 0;
-    margin-bottom: 32px;
-}
-.news_section_1 p{
-    margin: 0;
-    margin-bottom: 40px;
-}
-.but_news{
-    height: 58px;
-    width: 210px;
-    background-color: #409DE2;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 100px;
-}
+
+
 /*---------text-page---------*/
 .text_main {
     margin: 0;
@@ -737,7 +793,7 @@ margin-top: 80px;
     flex-wrap: wrap;
     margin-left: 710px;
   }
-  /*-------asort-page-*/
+  /*-------asort-page-----------*/
   .assort_h1 h1{
       font-size: 120px;
       font-weight: 700;
@@ -825,7 +881,8 @@ margin-top: 80px;
       left: 1221px; /*-почему для выравнивания мне понадобились такие большие параметры ? -*/
       top: 104px;
   }
-  .Header_menu.current_list::before{
+
+  .line_header::before{
       background-color: #E0E0E0;
       position: absolute;
       content: '';
@@ -833,6 +890,10 @@ margin-top: 80px;
       height: 1px;
       left: 175px;
       top: 105px;
+  }
+  .line_header{
+      margin: 0 auto;
+      display: flex;
   }
   .first-h2.line::before{
         background-color: #8C9EAA;
@@ -843,44 +904,20 @@ margin-top: 80px;
         left: 840px;
         top: 1586px;
   }
-  .back_word::before{
-    content: "";
-    width: 1484px;
-    height: 344px;
-    background-image: url(.//svg/windelend.svg);
-    background-repeat:no-repeat;
-    top: 3395px;
-    position: absolute;
-    z-index: -1;
-  }
-  /*--------- текст над каринкой -----
-  .assort_info_all{
-      width: 277px;
-      margin: 0 auto;
-      display: flex;
-      background-color: blueviolet;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-  .assort_info_p{
-      margin: 0;
-      
-  }
-  .assort_main {
-    font-size: 36px;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin: 0;
-    color: white;
-    margin-bottom: 18px;
-  }
-  .assort_main_p{
-    font-size: 16px;
-    font-weight: 400;
-    color: white;
-    margin-bottom: 59px;
-  }
- ----тек над картинкой -*/ 
+  .assortiment__slider:before{
+      content: "";
+      width: 1484px;
+      height: 344px;
+      background-image: url(.//svg/windelend.svg);
+      background-repeat:no-repeat;
+      top: 3388px;
+      left: 167px;
+      position: absolute;
+      z-index: -1;
+    }
+    .asort_main{
+        background-color:  #F1F3F4;
+        z-index: 0;
+    }
 
-  
+
