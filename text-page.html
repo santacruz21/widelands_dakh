@@ -8,28 +8,34 @@
     <link rel="stylesheet" href="style-test.css">
     <style>   
         li {
-            list-style-type: none;
-        }
+                list-style-type: none;
+            }
+            a{
+                text-decoration:none;
+                color: #072234;
+            }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="header_logo">
-                <img src="img jpeg\condensed jpeg\1 1.jpg" alt="logo">
+               <a href="/index.html"><img src="img jpeg\condensed jpeg\1 1.jpg" alt="logo" ></a> 
             </div>
-            <div class="header_list">
-                <ul class="Header_menu">
-                    <li> <a href="">Assortment</a></li>
-                    <li> <a href="">News</a></li>
-                    <li> <a href="">Contact</a></li>
+            <nav class="header_list"> 
+                <div class="line_header">
+                <ul class="Header_menu current_list_text">
+                    <li> <a href="assotrment.html">Assortment</a></li>
+                    <li> <a href="news.html">News</a></li>
+                    <li> <a href="text-page.html">Contact</a></li>
                 </ul>
                 <ul class="header_social">
-                    <li> <a href=""><img src="img svg\svg\logo mail.svg" alt="mail"> </a></li>
-                    <li> <a href=""><img src="img svg\svg\logo fb.svg" alt="facebook"> </a></li>
-                    <li> <a href=""><img src="img svg\svg\logo inst.svg" alt="instagram"> </a></li>
+                    <li> <a href="https://www.mail.com/"target="blank"><img src="img svg\svg\logo mail.svg" alt="mail"> </a></li>
+                    <li> <a href="https://www.facebook.com/"target="blank"><img src="img svg\svg\logo fb.svg" alt="facebook"> </a></li>
+                    <li> <a href="https://www.instagram.com/"target="blank"><img src="img svg\svg\logo inst.svg" alt="instagram"> </a></li>
                 </ul>   
-            </div>    
+            </div>
+            </nav>    
         </div>
    </header>
     <main>
@@ -37,7 +43,7 @@
     <section> 
         <div class="text_main">
             <div class="text_main_h1">
-                <h1 class="headertp" >Named TOP-5 regions in terms of the yield of major crops</h1>
+                <h1 class="headertp" >Named TOP-5 regions<br> in terms of the yield of major crops</h1>
             </div>
             <div class="text_main_p">
                 <p class="p1tp" >As of December 10, Ukrainian agricultural producers have already harvested 82.7 million tons of staple crops from an area of almost 24 million hectares, of which grain and leguminous crops account for 64.3 million tons (15.2 million hectares, 99%). This is evidenced by the data of the project «Harvest Online 2020».</p>
@@ -51,7 +57,7 @@
             <p>Corn — 28.8 million tons from an area of 5.3 million hectares (98%) with an average yield of 5.41 tons / ha. In addition, 9.15 million tons of sugar beet were dug up on an area of 215.5 thousand hectares (100%) with an average yield of 42.35 tons / ha.</p>
         </div>
     </section>
-    <section>
+    <section class="text_section">
         <div class="text_ul_1">
             <h2 class="h2tp">The farmers have already completed the cleaning</h2>
             <table class="table_1">
@@ -68,7 +74,7 @@
     </section>
     <section>
     <div class="text_ul_2">
-        <h2 class="h2tp">The TOP‑5 leaders among the regions where the largest gross harvest of major agricultural crops is collected includes:</h2>
+        <h2 class="h2tp">The TOP5 leaders among the regions where the largest gross harvest of major agricultural crops is collected includes:</h2>
         <table class="table_2">
             <tr><th>Poltava</th><td>6.4 million tons</td>
             <tr><th>Kharkovskaya</th><td>6.2 million tons</td>
@@ -76,26 +82,26 @@
             <tr><th>Buckwheat </th><td>5.6 million tons</td>
             <tr><th>Millet</th><td>5.5 million tons</td>
         </table>
-        <p class="p2tp">To keep abreast of the latest data on the progress of the harvesting campaign in Ukraine, follow the updates of the Harvest Online 2020 project. The project was created by Latifundist.com in partnership with Soufflet Agro Ukraine.</p>
+        <p class="p2tp">To keep abreast of the latest data on the progress of the harvesting campaign in Ukraine, follow the updates of the Harvest Online 2020 project. The project was created by <a href="Latifundist.com">Latifundist.com</a>  in partnership with Soufflet Agro Ukraine.</p>
     </section>
     </div>
-    </main>
+    </main> 
     <footer>
         <footer>
             <div class="container">
                 <div class="footer">
                     <h2>Contact us</h2>
-                    <p>Žatevná 12, Bratislava, Slovac Republic, 841 01</p>
+                    <address>Žatevná 12, Bratislava, Slovac Republic, 841 01</address>
                     <ul>
-                        <li>380 68 751 77 77</li>
-                        <li>380 68 751 77 77</li>
-                        <li>380 68 751 77 77</li>
-                        <li>380 68 751 77 77</li>
+                        <li> <a href="#">+380 68 751 77 77</a></li>
+                        <li> <a href="#">+380 98 731 77 77</a></li>
+                        <li> <a href="#">+421 23 333 10 44</a></li>
+                        <li> <a href="#">+421 23 333 10 41</a></li>
                     </ul>
                 </div>
                 <div class="end">
                     <p>Copyright © 2018</p>
-                    <a href="">office@wl-export.com</a>
+                    <a href="hhts://office@wl-export.com">office@wl-export.com</a>
                 </div>
             </div>
         </footer>

@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(180 400 300)">
+   <circle fill="#216DA6" r="32" cy="300" cx="400"/>
+   <path fill="white" d="m398.828,300l4.95,4.95l-1.414,1.414l-6.364,-6.364l6.364,-6.364l1.414,1.414l-4.95,4.95z"/>
+  </g>
+ </g>
+</svg>
