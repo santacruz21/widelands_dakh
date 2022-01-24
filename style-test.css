@@ -1,0 +1,923 @@
+
+
+@font-face {
+
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 500;
+    src:url(../fons/SFProDisplay-Medium.ttf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 400;
+    src:url(../fons/SFProDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 700;
+    src:url(../fons/SFProDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "SF Pro Display";
+    font-style: normal; 
+    font-weight: 600;
+    src:url(../widelands_dakh/fons/SFProDisplay-Semibold.ttf);
+}
+
+body {
+    margin: 0;
+    font-family: "SF Pro Display";
+}
+
+* {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.header{
+    font-family: "SF Pro Display";
+    text-decoration: 0;
+    color: #072234;
+    font-size: 16px;
+    font-weight: 500; 
+}
+
+a:hover{
+    color:#409DE2;
+}
+a:active{
+    color:#216DA6;
+}
+
+.title {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    color: #8C9EAA;
+    font-size: 16px;
+    font-weight: 400;
+}
+.wideland {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+    }
+
+
+h2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 64px;
+    font-weight: 700;
+}
+.p1 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+.p3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.p4 {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.p5 {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h3 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p6 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.read {
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 16px;
+    font-weight: 500; 
+}.btn2 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 13px;
+    font-weight: 400; 
+}
+.p7 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+}
+.p8 {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mail {
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 24px;
+    font-weight: 400; 
+}
+
+.h1new {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+}
+.h2news {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.p1news {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.btnnews {
+    font-family: "SF Pro Display";
+    color: rosybrown;
+    font-size: 16px;
+    font-weight: 700;
+}
+.telhaed { 
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.telfooter { 
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.headertp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.p1tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.h2tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.litp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.litpsb {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 600;
+}
+.p2tp {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h1asrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 120px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.p1asrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+caption {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 24px;
+    font-weight: 700;
+}
+.th {
+    font-family: "SF Pro Display";
+    color: #8C9EAA;
+    font-size: 16px;
+    font-weight: 600;
+}
+.tableasrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+ul {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tabasrt {
+    font-family: "SF Pro Display";
+    color: #072234;
+    font-size: 16px;
+    font-weight: 400;
+}
+.h1-404{
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 144px;
+    font-weight: 700px;
+    line-height: 130px;
+}
+
+/* ----------------------head----------------------------- */
+
+.header-wrapper{
+    max-width: 1720px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.header-list{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+}
+.header-link{
+    margin-right: 70px;
+}
+.header-linksvg{
+    margin-right: 33px;
+}
+.container{
+    width: 100%;
+    max-width: 1720px;
+    min-height: 105px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .container{
+    align-items: center;
+    justify-content: space-between;
+}
+.header-linksvg:last-child{
+    margin: 0px;
+    padding-right: 2px;
+}
+.logo{
+    margin-right: auto;
+}
+/* ----------------------body---------h1---- */
+.container-h1{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 191px;
+    width: 1720px;
+    min-height: 1020px;
+}
+.title{
+    width: 517px;
+    height: 44px;
+    margin-top: 85px;
+}
+.main_title{
+    width: 643px;
+    height: 216px;
+    margin-top: 30px;
+}   
+.main_img{
+    width: 1720px;
+    height: 700px;
+    margin-top: 30px;
+}
+/* ----------------------body---------h2---- */
+.container-h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 191px;
+    width: 1720px;
+    min-height: 971px;
+}
+.main_title-h2{
+    width: 270px;
+    height: auto;
+    padding-right: 100px;
+}
+.h2-p1-2{
+   width: 1010px;
+   height: 154px;
+   padding-left: 440px;
+   background-color: lawngreen;
+}
+/* ----------------------404---------------------- */
+.container_404{
+    max-width: 1720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+.h1-404{
+   width: auto;
+   height: auto;
+}
+.h2tp{
+    width: 100%;
+}
+
+.batton_back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px;
+    width: 210px;
+    background-color: #409DE2;
+}
+
+/*test block*/
+.banner__before{
+    color: #8C9EAA;
+    font-size: 16px;
+    width: 517px;
+    max-width: 100%;
+}
+
+.banner__title{
+    width: 100%;
+}
+
+.error__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+.error__img{
+    padding-bottom: 211px;
+}
+.header_list{
+    display: flex;  
+}
+.Header_menu{
+    display: flex;
+    
+}
+.Header_menu li{
+    padding-left: 70px;
+}
+
+.header_social{
+    display: flex;
+    padding-left: 200px;
+
+}
+.header_social li{
+    padding-left: 33px;
+}
+.header_social li:first-child {
+    padding-left: 0;
+}
+.first-before p{
+width: 517px;
+font-size: 16px;
+font-weight: 400;
+color: #8C9EAA;
+margin-top: 80px;
+}
+.first-text{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+   padding-right: 347px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+.first-h1{
+    margin: 0;
+    font-family: "SF Pro Display";
+    color: #409DE2;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 90%;
+}
+.h1_1{
+    color: #072234;
+}
+.first-h2{
+    width: 1010px;
+    align-items: flex-end;
+    font-size: 16px;
+    color: #072234;
+    font-weight: 400;
+}
+.h2_img img{
+    padding-left: 130px;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+.h2_img img:first-child{
+    padding: 0;
+}
+.h2_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 191px;
+}
+.h2_container h2{
+    margin: 0;
+    display: flex;
+    
+}
+.h2_p{
+    font-size: 24px;
+    color: #072234;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 61px;
+}
+/*-------assortment---------p1-*/
+.assortment_h2{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 200px;
+}
+
+
+.asrt_titl{
+    margin: 0;
+    line-height: 57px;
+}
+.button_asort{
+    display: flex;
+    justify-content: right;
+    margin-left: 176px;
+    align-items: flex-start;
+}
+ 
+
+.btn_left{
+ width: 64px;
+ height: 64px;
+ border-radius: 64px;
+ background-image: url(/svg/elips_left.svg);
+ display: flex;
+ border: none;
+ cursor: pointer;
+}
+.btn_left:hover{
+ width: 64px;
+ height: 64px;
+ border-radius: 64px;
+ background-image: url(/svg/elips_left_blue.svg);
+ display: flex;
+ border: none;
+ cursor: pointer;
+}
+
+.btn_right{
+    cursor: pointer;
+    border: none;
+}
+
+.asort_h2{
+    margin: 0;
+    font-size: 64px;
+    color: #072234;
+    line-height: 58px;
+    font-weight: 700;
+    padding-right: 367px;
+}
+.assortment_h2 p{
+    width: 690px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.asort_img{
+    margin-top: 65px;
+    margin-left: 600px;
+}
+
+.asort_img img:first-child{
+    margin-right: 32px;
+}
+
+
+
+/*--------------------слайдер---------*/
+.assortiment{
+    padding: 100px 0;
+    background: #F1F3F4;
+}
+
+.assortiment__slider{
+    width: 60%;
+    margin-left: auto;
+    display: flex;
+    margin-top: 55px;
+}
+
+.assortiment__item{
+    height: 602px;
+    width: 50%;
+    position: relative;
+    margin-bottom: 154px;
+}
+
+.assortiment__bg{
+    background: url(/svg/shutterstock_504254812\ 1.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+.assortiment__bg1{
+    background: url(/svg/as.jpg) no-repeat center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+
+.assortiment__text{
+    background: rgba(37, 35, 65, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+}
+
+.assortiment__item:hover .assortiment__text {
+    opacity: 1;
+}
+
+/*--------news--------p1-*/
+.news_title{
+	width: 41%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    margin: 0;
+}
+.news {
+    margin-top: 200px;
+}
+.news_title h2{
+    margin: 0;
+}
+.news_all{
+	width: 59%px;
+}
+.nesw_top a{
+    padding-left: 245px;
+}
+.nesw_top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.news_text{
+	border-top: 1px solid #8C9EAA;
+	padding: 30px 0;
+}
+
+.news_text:last-child{
+	border-bottom: 1px solid #8C9EAA;
+}
+
+.news_btn{
+	border: 1px solid #409DE2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 238px;
+	height: 238px;
+	border-radius: 238px;
+}
+/*---------footer-----p1-*/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 139px;
+}
+.footer ul{
+    padding-right: 122px;
+}
+.footer p{
+    width: 282px;
+    font-size: 24px;
+}
+.footer h2{
+    margin: 0;
+}
+.end{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.end p{
+    margin: 0;
+    display: flex;
+    margin-right: 600px;
+}
+                  /*-end first page----*/
+
+/*------News-----p2-*/
+
+
+/*---------text-page---------*/
+.text_main {
+    margin: 0;
+    display: flex;
+    margin-top: 158px;
+   
+}
+.text_main_h1{
+    width: 665px;
+    margin: 0;
+    display: flex;
+}
+.text_main_p{
+    width: 700px;
+    margin: 0;
+    margin-left: 44px;
+}   
+.text_main_img{
+    margin-top: 6px; /*-почему в тексте выше уже стоит маргин 24?-*/
+}
+.text_h2_1{
+    width: 700px;
+    margin: 0;
+    margin-top: 52px;
+    margin-left: 710px;
+    margin-bottom: 56px;
+}
+.text_ul_1{
+    margin-top: 72px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+}
+.table_1{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 308px;
+}
+.table_1 th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+}
+.table_1 td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+    padding-left: 70px;
+  }
+  .text_ul_1 p{
+    width: 700px;
+    margin-top: 24px;
+  }
+  .text_ul_1{
+    margin-top: 72px;
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+    margin-bottom: 44px;
+}
+/*-2 tab-*/
+.table_2{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 308px;
+}
+.table_2 th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+}
+.table_2 td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+    padding-left: 425px;
+  }
+  .text_ul_2 p{
+    width: 700px;
+    margin-top: 24px;
+  }
+  .h2tp{
+      width: 700px;
+  }
+  .text_ul_2{
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+  }
+  /*-------asort-page-----------*/
+  .assort_h1 h1{
+      font-size: 120px;
+      font-weight: 700;
+      line-height: 108px;
+      text-transform: uppercase;
+      color: #072234;
+      margin: 0;
+      margin-top: 180px;
+  }
+  .assort_img{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+  }
+.assort_img_1{ /*-как опустить первую фоографию в этом контйнере без маргена-*/
+    margin-top: 219px;
+}
+.assort_p{
+    width: 700px;
+    margin-top: 72px;
+    margin-left: 710px;
+}
+.table_asort{
+    line-height: 23px;
+    text-align: left;
+    min-width: 700px;
+    height: 566px;
+}
+.table_asort th{
+  border-bottom: 1px solid #E0E0E0;
+  transition: .3s linear;
+  
+}
+.one{
+    padding-left: 59px;
+    color: #8C9EAA;
+    font-weight: 600;
+    font-size: 16px;
+  }
+.one1{
+    color: #8C9EAA;
+    font-weight: 600;
+    font-size: 16px;
+  }
+.table_asort td{
+    border-bottom: 1px solid #E0E0E0;
+    transition: .3s linear;
+   /*- padding-left: 59px; убрал так как общие габариты становяться больше 700-*/
+  }
+  .asort_ul_1{ /*- как задать растояниме между колонами-*/
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 710px;
+  }
+  .assort_main{
+      margin: 0;
+      display: flex;
+      font-size: 24px;
+      font-weight: 700;
+      margin-left: 710px;
+      margin-top: 48px;
+  }
+  .asort_ul{
+    list-style: none;
+    column-count: 2;
+    margin-left: 710px;
+    width: 700px;
+  }
+  .asort_ul li{
+    list-style-type: disc;
+    padding: 12px;
+  }
+  /*-оформление-*/
+
+  .Header_menu.current_list::after{
+      background-color: #409DE2;
+      position: absolute;
+      content: '';
+      width: 81px;
+      height: 3px;
+      left: 1221px; /*-почему для выравнивания мне понадобились такие большие параметры ? -*/
+      top: 104px;
+  }
+
+  .line_header::before{
+      background-color: #E0E0E0;
+      position: absolute;
+      content: '';
+      width: 1690px; /*-потому чо у меня в онтейнере -15 от каждого края-*/
+      height: 1px;
+      left: 175px;
+      top: 105px;
+  }
+  .line_header{
+      margin: 0 auto;
+      display: flex;
+  }
+  .first-h2.line::before{
+        background-color: #8C9EAA;
+        position: absolute;
+        content: "";
+        width: 1010px;
+        height: 1px;
+        left: 840px;
+        top: 1586px;
+  }
+  .assortiment__slider:before{
+      content: "";
+      width: 1484px;
+      height: 344px;
+      background-image: url(.//svg/windelend.svg);
+      background-repeat:no-repeat;
+      top: 3388px;
+      left: 167px;
+      position: absolute;
+      z-index: -1;
+    }
+    .asort_main{
+        background-color:  #F1F3F4;
+        z-index: 0;
+    }
+
+
