@@ -327,6 +327,7 @@ ul {
 header .container{
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 .header-linksvg:last-child{
     margin: 0px;
@@ -430,20 +431,73 @@ header .container{
     
 }
 .Header_menu li{
-    padding-left: 70px;
+    margin-left: 70px;
 }
-
+/*-иконки----------*/
 .header_social{
     display: flex;
     padding-left: 200px;
-
+    align-items: center;
 }
 .header_social li{
     padding-left: 33px;
+    margin: 0;
 }
 .header_social li:first-child {
     padding-left: 0;
 }
+.header_social a{
+    margin: 0;
+}
+.btn_mail{
+    width: 20px;
+    height: 20px;
+    background-image: url(/svg/btn_mail.svg);
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.btn_mail:hover{
+    background-image: url(/svg/btn_mail_hover.svg);
+}
+.btn_mail:active{
+    background-color: transparent; opacity: 0.2;
+}
+
+.btn_fb{
+    width: 11px;
+    height: 20px;
+    background-image: url(/svg/btn_fb.svg);
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.btn_fb:hover{
+    background-image: url(/svg/btn_fb_hover.svg);
+}
+.btn_fb:active{
+    background-color: transparent; opacity: 0.2;
+}
+
+.btn_instagram{
+    width: 20px;
+    height: 20px;
+    background-image: url(/svg/btn_instagram.svg);
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+.btn_instagram:hover{
+    background-image: url(/svg/btn_instagram_hover.svg)
+}
+.btn_instagram:active{
+    background-color: transparent; opacity: 0.2;
+}
+
+.header_social button{
+    background-color: transparent;
+}
+
 .first-before p{
 width: 517px;
 font-size: 16px;
@@ -477,6 +531,7 @@ margin-top: 80px;
     font-size: 16px;
     color: #072234;
     font-weight: 400;
+    position: relative;
 }
 .h2_img img{
     padding-left: 130px;
@@ -592,6 +647,7 @@ margin-top: 80px;
     margin-left: auto;
     display: flex;
     margin-top: 55px;
+    position: relative;
 }
 
 .assortiment__item{
@@ -632,7 +688,7 @@ margin-top: 80px;
 
 
 .assortiment__text{
-    background: rgba(37, 35, 65, 0.6);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
@@ -668,9 +724,10 @@ margin-top: 80px;
 .news_all{
 	width: 59%px;
 }
-.nesw_top a{
+.xxc{
     padding-left: 245px;
     text-decoration: underline;
+    color: #409DE2;
 }
 .nesw_top{
 	display: flex;
@@ -696,6 +753,14 @@ margin-top: 80px;
 	border-radius: 238px;
     font-size: 18px;
     text-transform: uppercase;
+}
+.news_btn:hover{
+    background-color: #409DE2;
+    color: white;
+}
+
+.news_btn:active{
+    opacity: 0.5;
 }
 /*---------footer-----p1-*/
 .footer{
@@ -895,6 +960,7 @@ margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 710px;
+    position: relative;
   }
   /*-------asort-page-----------*/
   .assort_h1 h1{
@@ -916,6 +982,67 @@ margin-top: 80px;
 .assort_img_1{ /*-как опустить первую фоографию в этом контйнере без маргена-*/
     margin-top: 219px;
 }
+/*----------------video---------*/
+.video_wraper{
+    width: 1010px;
+    height: 569px;
+    position: relative;
+}
+.video{
+    width: 100%;
+    height: auto;
+}
+.video_btn{
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    background-image: url(/svg/play.svg);
+    background-color: transparent;
+    border: none;
+    top: 333px;
+    left: -159px;
+}
+
+.video_btn:active{
+    opacity: 0.5;
+}
+.video_btn::before{
+    position: absolute;
+    content: '';
+    background-image: url(/svg/play_btn.svg);
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+
+    animation-name: rotateText;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+@keyframes rotateText{
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.video_wraper:hover .video_btn::before {
+    animation-play-state: paused;
+}
+
+
+.isually_hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    pointer-events: none;
+}
+
 .assort_p{
     width: 700px;
     margin-top: 72px;
@@ -972,6 +1099,7 @@ margin-top: 80px;
   }
   .asort_section{
       padding-top: 62px;
+      position: relative;
       
   
   }
@@ -979,35 +1107,47 @@ margin-top: 80px;
     list-style-type: disc;
     padding-bottom: 24px;
   }
-  /*-оформление-*/
-/*-
-  .Header_menu.current_list::after{
+  /*-оформление-*/ 
+  .li_1:hover::after{
       background-color: #409DE2;
       position: absolute;
       content: '';
       width: 81px;
       height: 3px;
-      left: 1221px; 
-      top: 104px;    
-  }-*/
-  .Header_menu.current_list_news::after{
+      left: 1077px; 
+      top: 104px;  
+  } 
+  .li_1:active::after{
+      background-color: #216DA6;
+      
+  } 
+  .li_2:hover::after{
       background-color: #409DE2;
       position: absolute;
       content: '';
       width: 81px;
       height: 3px;
-      left: 1355px; /*-почему для выравнивания мне понадобились такие большие параметры ? -*/
-      top: 104px;
-  }
-  .Header_menu.current_list_asort::after{
+      left: 1205px; 
+      top: 104px;  
+  } 
+  .li_2:active::after{
+      background-color: #216DA6;
+      
+  } 
+  .li_3:hover::after{
       background-color: #409DE2;
       position: absolute;
       content: '';
       width: 81px;
       height: 3px;
-      left: 1221px; 
-      top: 104px;    
-  }
+      left: 1325px; 
+      top: 104px;  
+  } 
+  .li_3:active::after{
+      background-color: #216DA6;
+      
+  } 
+
   .Header_menu.current_list_text::after{
       background-color: #409DE2;
       position: absolute;
@@ -1023,11 +1163,11 @@ margin-top: 80px;
       content: '';
       width: 1690px; /*-потому чо у меня в онтейнере -15 от каждого края-*/
       height: 1px;
-      left: 175px;
+      left: 15px;
       top: 105px;
   }
   .line_header{
-      margin: 0 auto;
+     /*- margin: 0 auto;-*/ 
       display: flex;
   }
   .first-h2.line::before{
@@ -1036,8 +1176,8 @@ margin-top: 80px;
         content: "";
         width: 1010px;
         height: 1px;
-        left: 840px;
-        top: 1586px;
+        left: 0px;
+        top: 184px;
   }
   .assortiment__slider::before{
       content: "";
@@ -1045,8 +1185,8 @@ margin-top: 80px;
       height: 344px;
       background-image: url(.//svg/windelend.svg);
       background-repeat:no-repeat;
-      top: 3388px;
-      left: 167px;
+      top: 479px;
+      left: -700px;
       position: absolute;
       z-index: -1;
     }
@@ -1104,25 +1244,16 @@ margin-top: 80px;
     }
 
     /*----------------assort-------*/
-    .assort_line::before{
+    .asort_section:before{
         background-color: #E0E0E0;
         position: absolute;
         content: '';
         width: 1690px; /*-потому чо у меня в онтейнере -15 от каждого края-*/
         height: 1px;
-        left: 175px;
-        top: 2250px;
+        left: 0px;
+        top: 208px;
     }
-    .assort_img::before{
-      content: "";
-      width: 210px;
-      height: 210px;
-      background-image: url(/svg/play.svg);
-      top: 748px;
-      left: 695px;
-      position: absolute;
-    
-    }
+   
         /*----------------text-page------*/
         .text_section{
             margin: 0;
@@ -1133,6 +1264,6 @@ margin-top: 80px;
       content: '';
       width: 1690px; 
       height: 1px;
-      left: 175px;
-      top: 2542px;
+      left: -715px;
+      top: 520px;
 }

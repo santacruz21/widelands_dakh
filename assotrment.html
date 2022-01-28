@@ -20,22 +20,22 @@
     <header>
         <div class="container">
             <div class="header_logo">
-               <a href="/index.html"><img src="img jpeg\condensed jpeg\1 1.jpg" alt="logo" ></a> 
+                <a href="/index.html"><img src="img jpeg\condensed jpeg\1 1.jpg" alt="logo" ></a> 
             </div>
-            <nav class="header_list"> 
-                <div class="line_header">
-                <ul class="Header_menu current_list_asort">
-                    <li> <a href="assotrment.html">Assortment</a></li>
-                    <li> <a href="news.html">News</a></li>
-                    <li> <a href="text-page.html">Contact</a></li>
-                </ul>
-                <ul class="header_social">
-                    <li> <a href="https://www.mail.com/"target="blank"><img src="img svg\svg\logo mail.svg" alt="mail"> </a></li>
-                    <li> <a href="https://www.facebook.com/"target="blank"><img src="img svg\svg\logo fb.svg" alt="facebook"> </a></li>
-                    <li> <a href="https://www.instagram.com/"target="blank"><img src="img svg\svg\logo inst.svg" alt="instagram"> </a></li>
-                </ul>   
-            </div>
-            </nav>    
+            <div class="line_header">
+                <nav class="header_list"> <!--зачем заворачивать в нав-->
+                    <ul class="Header_menu current_list">
+                        <li class="li_1"> <a href="assotrment.html">Assortment</a></li>
+                        <li class="li_2"> <a href="news.html">News</a></li>
+                        <li class="li_3"> <a href="text-page.html">Contact</a></li>
+                    </ul>
+                    <ul class="header_social">
+                        <li> <a href="https://www.mail.com/"target="blank"><button class="btn_mail"></button></a> </li>
+                        <li> <a href="https://www.facebook.com/"target="blank"><button class="btn_fb"></button></a></li>
+                        <li> <a href="https://www.instagram.com/"target="blank"><button class="btn_instagram"></button></a></li>
+                    </ul>   
+                </nav>    
+                </div>
         </div>
    </header>
 <main>
@@ -48,9 +48,19 @@
                 <div class="assort_img_1">
                     <img src="img jpeg\condensed jpeg\shutterstock_504254812 1 (1).jpg" alt="">
                 </div>
-                <div class="assort_img_2">
-                    <img src="img jpeg\condensed jpeg\shutterstock_1718393608 1.jpg" alt="">
+
+
+                <div class="video_wraper">
+                   <video class="video" src="/video/video_fild.mp4"></video>
+                   <button class="video_btn"> 
+                       <span class="visually_hidden">
+                           
+                       </span>
+                </button>
                 </div>
+
+
+                
             </div>
         <section>
             <div class="assort_p">
@@ -80,7 +90,7 @@
             </table>
             </div>  
         </section>
-        <section class="assort_line">
+        <section>
             <div class="asort_section" >
                 <ul class="asort_ul">
                     <li>Minimum: 1 container.</li>
@@ -113,6 +123,6 @@
         </div>
     </div>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
